@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { LogoFull } from "../components/Logo";
-import finLogoSrc from "../imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
+import finLogoSrc from "../imports/logo.jpeg";
 import {
   ArrowRight,
   BookOpen,

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BookOpen, CheckCircle, Lock, Play, ArrowLeft, Clock, Award, ChevronRight } from "lucide-react";
 import { courses, currentStudent } from "../../data";
-import finLogoSrc from "../../imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
+import finLogoSrc from "../../imports/logo.jpeg";
 
 interface Props {
   onNavigate: (page: string) => void;
