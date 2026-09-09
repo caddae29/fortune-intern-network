@@ -8,7 +8,7 @@ import {
   Bell,
   Bookmark,
 } from "lucide-react";
-import { LogoFull } from "../components/logo";
+import { LogoFull } from "../components/fin-logo";
 import { notifications } from "../data";
 
 interface Props {

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Users, Building2, Briefcase, FileText, BarChart2, CreditCard, Zap, Bell, Search, ChevronDown, LogOut, CheckCircle, Clock, AlertCircle, TrendingUp, Mail, Award, Activity, Lock, EyeOff, Eye, KeyRound, Settings, X, Shield, ChevronRight } from "lucide-react";
-import { LogoFull } from "../../components/logo";
-import finLogoSrc from "../../imports/logo.jpeg";
+import { LogoFull } from "../../components/fin-logo";
+import finLogoSrc from "../../imports/fin-logo.jpeg";
 import { adminStats, adminApplications, adminPayments, employers } from "../../data";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, LineChart, Line } from "recharts";
 

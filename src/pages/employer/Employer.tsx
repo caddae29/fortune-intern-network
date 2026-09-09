@@ -25,7 +25,7 @@ import {
   Phone,
   Globe,
 } from "lucide-react";
-import { LogoFull } from "../../components/logo";
+import { LogoFull } from "../../components/fin-logo";
 
 interface Props {
   onNavigate: (page: string) => void;

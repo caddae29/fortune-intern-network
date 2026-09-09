@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "./imports/logo.jpeg";
+import logo from "./imports/fin-logo.jpeg";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import StudentShell from "./layouts/StudentShell";

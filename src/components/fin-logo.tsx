@@ -1,4 +1,4 @@
-import finLogoSrc from "../imports/logo.jpeg";
+import finLogoSrc from "../imports/fin-logo.jpeg";
 
 interface LogoProps {
   variant?: "light" | "dark" | "white";
