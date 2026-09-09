@@ -1,0 +1,32 @@
+variable is a  named memory location whose contents can 
+differ over time.
+
+ A data type tells the computer the kind of 
+data a variable can hold.
+
+modularization is the breaking down of programs into reasonable 
+units that tackle one small task at a time.
+
+
+variables appear to the side of the “declare variables” 
+step in an annotation symbol or annotation box,
+ which is simply an attached box containing notes.
+
+ ● Annotation symbols can be used anytime you have 
+more to write than you can conveniently fit within a 
+flowchart
+
+ C++ was developed in the early 1980’s by Bjarne Stroustrup of AT&T Bell Labs.
+
+#include <iostream> and return 0 are preprocessor directives
+
+
+reserved words: They are words that are already in use by the program and therefore can not be 
+used as variables. EXAMPLE FOR,WHILE,IF ETC 
+
+
+
+
+
+
+

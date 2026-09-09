@@ -1,0 +1,10 @@
+{
+  "description": "Connects students with paid internships while offering skills training, AI career assistance, live application tracking, and automated career tools for seamless growth.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

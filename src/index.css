@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  --color-fin-navy: #0D1B2A;
+  --color-fin-navy-light: #162032;
+  --color-fin-navy-muted: #1e3a5f;
+  --color-fin-blue: #2563EB;
+  --color-fin-blue-dark: #1D4ED8;
+  --color-fin-blue-light: #EFF6FF;
+  --color-fin-blue-mid: #DBEAFE;
+  --color-fin-gold: #F59E0B;
+  --color-fin-gold-dark: #D97706;
+  --color-fin-gold-light: #FFFBEB;
+  --color-fin-gold-mid: #FEF3C7;
+  --color-fin-green: #10B981;
+  --color-fin-green-light: #D1FAE5;
+  --color-fin-red: #EF4444;
+  --color-fin-red-light: #FEE2E2;
+  --color-fin-amber: #F59E0B;
+  --color-fin-ground: #F1F5F9;
+  --color-fin-surface: #FFFFFF;
+  --color-fin-border: #E2E8F0;
+  --color-fin-text: #0F172A;
+  --color-fin-muted: #64748B;
+  --color-fin-subtle: #94A3B8;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F1F5F9;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse-dot {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.35s ease-out;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s ease-out;
+}
+
+.animate-fade-scale {
+  animation: fadeInScale 0.3s ease-out;
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 1.5s ease-in-out infinite;
+}
