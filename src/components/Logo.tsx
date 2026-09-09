@@ -1,4 +1,4 @@
-import finLogoSrc from "@/imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
+import finLogoSrc from "../imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
 
 interface LogoProps {
   variant?: "light" | "dark" | "white";
@@ -106,11 +106,17 @@ export function LogoFull({
         </span>
         <span
           className={`font-bold tracking-widest ${
-            size === "sm" ? "text-[10px]" : size === "md" ? "text-xs" : "text-sm"
+            size === "sm"
+              ? "text-[10px]"
+              : size === "md"
+                ? "text-xs"
+                : "text-sm"
           } mt-0.5`}
         >
           <span className="text-fin-gold">INTERN</span>{" "}
-          <span className={onDark ? "text-white/80" : "text-fin-navy/70"}>NETWORK</span>
+          <span className={onDark ? "text-white/80" : "text-fin-navy/70"}>
+            NETWORK
+          </span>
         </span>
       </div>
     </div>
@@ -118,7 +124,13 @@ export function LogoFull({
 }
 
 /** Square mark-only — for favicons, avatars, tight spaces */
-export function LogoMark({ size = 40, className = "" }: { size?: number; className?: string }) {
+export function LogoMark({
+  size = 40,
+  className = "",
+}: {
+  size?: number;
+  className?: string;
+}) {
   return (
     <div
       className={`rounded-xl overflow-hidden bg-white flex-shrink-0 ${className}`}

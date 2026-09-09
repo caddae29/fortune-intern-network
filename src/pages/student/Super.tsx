@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { X, Send, Paperclip, Sparkles, RefreshCw, FileText, Briefcase, MessageSquare } from "lucide-react";
 import { currentStudent } from "../../data";
-import finLogoSrc from "@/imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
+import finLogoSrc from "../../imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
 
 interface Props {
   onClose: () => void;

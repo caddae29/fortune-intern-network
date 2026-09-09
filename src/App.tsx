@@ -1,5 +1,5 @@
 import { useState } from "react";
-import finLogoSrc from "@/imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
+import finLogoSrc from "./imports/WhatsApp_Image_2026-09-09_at_12.01.56_PM.jpeg";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import StudentShell from "./layouts/StudentShell";
@@ -46,7 +46,7 @@ const STUDENT_PAGES: Page[] = [
   "student-announcements",
   "student-analytics",
   "student-notifications",
-  "student-saved"
+  "student-saved",
 ];
 
 export default function App() {
@@ -81,17 +81,27 @@ export default function App() {
           <div className="flex-1 min-h-0 overflow-hidden flex flex-col">
             {page === "student-overview" && <Overview onNavigate={navigate} />}
             {page === "student-marketplace" && (
-              <Marketplace onNavigate={navigate} initialInternshipId={params.id} />
+              <Marketplace
+                onNavigate={navigate}
+                initialInternshipId={params.id}
+              />
             )}
             {page === "student-apply" && (
-              <ApplyFlow internshipId={params.id || "int-001"} onNavigate={navigate} />
+              <ApplyFlow
+                internshipId={params.id || "int-001"}
+                onNavigate={navigate}
+              />
             )}
             {page === "student-tracking" && <Tracking onNavigate={navigate} />}
             {page === "student-academy" && <Academy onNavigate={navigate} />}
             {page === "student-profile" && <Profile onNavigate={navigate} />}
-            {page === "student-announcements" && <Announcements onNavigate={navigate} />}
+            {page === "student-announcements" && (
+              <Announcements onNavigate={navigate} />
+            )}
             {page === "student-analytics" && <Analytics />}
-            {page === "student-notifications" && <Notifications onNavigate={navigate} />}
+            {page === "student-notifications" && (
+              <Notifications onNavigate={navigate} />
+            )}
             {page === "student-saved" && <Saved onNavigate={navigate} />}
           </div>
         </StudentShell>
@@ -101,8 +111,14 @@ export default function App() {
           <>
             {/* Mobile: bottom sheet */}
             <div className="md:hidden fixed inset-0 z-50 flex flex-col justify-end">
-              <div className="absolute inset-0 bg-black/40" onClick={() => setShowSuper(false)} />
-              <div className="relative bg-white rounded-t-3xl overflow-hidden animate-slide-up" style={{ height: "85vh" }}>
+              <div
+                className="absolute inset-0 bg-black/40"
+                onClick={() => setShowSuper(false)}
+              />
+              <div
+                className="relative bg-white rounded-t-3xl overflow-hidden animate-slide-up"
+                style={{ height: "85vh" }}
+              >
                 <SuperPanel onClose={() => setShowSuper(false)} />
               </div>
             </div>
