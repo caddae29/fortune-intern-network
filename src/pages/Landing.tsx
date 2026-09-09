@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { LogoFull } from "../components/fin-logo";
-import finLogoSrc from "../imports/fin-logo.jpeg";
+
+
 import {
   ArrowRight,
   BookOpen,
