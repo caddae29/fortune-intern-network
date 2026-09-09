@@ -4,7 +4,7 @@ import {
   Building2, Shield, CheckCircle, GraduationCap, Briefcase,
   BookOpen, Sparkles, Phone, Globe, ChevronRight, RefreshCw
 } from "lucide-react";
-import { LogoFull } from "../components/Logo";
+import { LogoFull } from "../components/logo";
 import finLogoSrc from "../imports/logo.jpeg";
 
 interface Props {

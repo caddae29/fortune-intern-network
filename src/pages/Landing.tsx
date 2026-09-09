@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { LogoFull } from "../components/Logo";
+import { LogoFull } from "../components/logo";
 import finLogoSrc from "../imports/logo.jpeg";
 import {
   ArrowRight,
