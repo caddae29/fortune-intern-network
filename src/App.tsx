@@ -138,7 +138,7 @@ export default function App() {
             aria-label="Open Super AI Assistant"
           >
             <img
-              src="/Images/fin-logo.jpeg"
+              src="/Images/finLogo.jpg"
               alt="Super AI"
               className="w-full h-full object-contain p-0.5"
               draggable={false}

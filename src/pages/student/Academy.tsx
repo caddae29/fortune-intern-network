@@ -271,7 +271,7 @@ export default function Academy({ onNavigate }: Props) {
                     <div className="flex items-center gap-2.5">
                       <div className="w-10 h-10 bg-white rounded-xl p-0.5 flex-shrink-0">
                         <img
-                          src="/Images/fin-logo.jpeg"
+                          src="/Images/finLogo.jpg"
                           alt="FIN"
                           className="w-full h-full object-contain"
                           draggable={false}
