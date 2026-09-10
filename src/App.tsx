@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "./imports/fin-logo.jpeg";
 import Landing from "./pages/Landing";
 import Auth from "./pages/Auth";
 import StudentShell from "./layouts/StudentShell";
@@ -139,7 +138,7 @@ export default function App() {
             aria-label="Open Super AI Assistant"
           >
             <img
-              src={logo}
+              src="/fin-logo.jpeg"
               alt="Super AI"
               className="w-full h-full object-contain p-0.5"
               draggable={false}

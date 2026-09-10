@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { BookOpen, CheckCircle, Lock, Play, ArrowLeft, Clock, Award, ChevronRight } from "lucide-react";
 import { courses, currentStudent } from "../../data";
-import finLogoSrc from "../../imports/fin-logo.jpeg";
 
 interface Props {
   onNavigate: (page: string) => void;
@@ -272,7 +271,7 @@ export default function Academy({ onNavigate }: Props) {
                     <div className="flex items-center gap-2.5">
                       <div className="w-10 h-10 bg-white rounded-xl p-0.5 flex-shrink-0">
                         <img
-                          src={finLogoSrc}
+                          src="/fin-logo.jpeg"
                           alt="FIN"
                           className="w-full h-full object-contain"
                           draggable={false}
