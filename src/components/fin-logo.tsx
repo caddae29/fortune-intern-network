@@ -1,4 +1,4 @@
-import LogoImageImage from "./assets/finLogo.jpg"
+import LogoImage from "./assets/finLogo.jpg"
 
 interface LogoProps {
   variant?: "light" | "dark" | "white";
