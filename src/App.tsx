@@ -15,6 +15,7 @@ import Saved from "./pages/student/Saved";
 import SuperPanel from "./pages/student/Super";
 import Employer from "./pages/employer/Employer";
 import Admin from "./pages/admin/Admin";
+import Logo from "./assets/finLogo.jpg"
 
 type Page =
   | "landing"
@@ -138,7 +139,7 @@ export default function App() {
             aria-label="Open Super AI Assistant"
           >
             <img
-              src="/Images/finLogo.jpg"
+              src={Logo}
               alt="Super AI"
               className="w-full h-full object-contain p-0.5"
               draggable={false}

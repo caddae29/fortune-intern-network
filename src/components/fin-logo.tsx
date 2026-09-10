@@ -1,3 +1,5 @@
+import Logo from "./assets/finLogo.jpg"
+
 interface LogoProps {
   variant?: "light" | "dark" | "white";
   size?: "xs" | "sm" | "md" | "lg" | "xl";
@@ -42,7 +44,7 @@ export default function Logo({
         }`}
       >
         <img
-          src="/Images/finLogo.jpg"
+          src={Logo}
           alt="Fortune Intern Network"
           className="w-full h-full object-contain"
           draggable={false}
@@ -88,7 +90,7 @@ export function LogoFull({
         className={`${heights[size]} aspect-square rounded-xl overflow-hidden bg-white p-0.5 flex-shrink-0 shadow-sm`}
       >
         <img
-          src="/Images/finLogo.jpg"
+          src={Logo}
           alt="Fortune Intern Network"
           className="w-full h-full object-contain"
           draggable={false}
@@ -135,7 +137,7 @@ export function LogoMark({
       style={{ width: size, height: size, padding: 2 }}
     >
       <img
-        src="/Images/finLogo.jpg"
+        src={Logo}
         alt="FIN"
         className="w-full h-full object-contain"
         draggable={false}
