@@ -5,7 +5,7 @@ import {
   BookOpen, Sparkles, Phone, Globe, ChevronRight, RefreshCw
 } from "lucide-react";
 import { LogoFull } from "../components/fin-logo";
-import Logo from "./assets/finLogo.jpg"
+import Logo from "../assets/finLogo.jpg"
 interface Props {
   mode: "login" | "signup";
   onNavigate: (page: string) => void;

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { X, Send, Paperclip, Sparkles, RefreshCw, FileText, Briefcase, MessageSquare } from "lucide-react";
 import { currentStudent } from "../../data";
-import Logo from "./assets/finLogo.jpg"
+import Logo from "../../assets/finLogo.jpg"
 interface Props {
   onClose: () => void;
 }
