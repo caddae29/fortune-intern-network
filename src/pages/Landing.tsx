@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { LogoFull } from "../components/fin-logo";
-import Logo from "../assets/finLogo.jpg"
+import LogoImage from "../assets/finLogo.jpg"
 
 import {
   ArrowRight,
@@ -77,7 +77,7 @@ function AboutModal({ onClose }: { onClose: () => void }) {
         <div className="flex items-center gap-4">
           <div className="w-16 h-16 bg-white rounded-xl border border-fin-border p-1 shadow-sm flex-shrink-0">
             <img
-              src={Logo}
+              src={LogoImage}
               alt="FIN"
               className="w-full h-full object-contain"
               draggable={false}
@@ -926,7 +926,7 @@ export default function Landing({ onNavigate }: Props) {
               <div className="flex justify-center mb-2">
                 <div className="w-20 h-20 bg-white rounded-2xl p-1.5 shadow-2xl shadow-fin-gold/20 border border-white/20">
                   <img
-                    src={Logo}
+                    src={LogoImage}
                     alt="Fortune Intern Network"
                     className="w-full h-full object-contain"
                     draggable={false}
@@ -1153,7 +1153,7 @@ export default function Landing({ onNavigate }: Props) {
               <div className="flex justify-center mb-6">
                 <div className="w-16 h-16 bg-white rounded-2xl p-1 shadow-xl">
                   <img
-                    src={Logo}
+                    src={LogoImage}
                     alt="FIN"
                     className="w-full h-full object-contain"
                     draggable={false}
