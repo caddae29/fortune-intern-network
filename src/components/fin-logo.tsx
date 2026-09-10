@@ -42,7 +42,7 @@ export default function Logo({
         }`}
       >
         <img
-          src="/fin-logo.jpeg"
+          src="/Images/fin-logo.jpeg"
           alt="Fortune Intern Network"
           className="w-full h-full object-contain"
           draggable={false}
@@ -88,7 +88,7 @@ export function LogoFull({
         className={`${heights[size]} aspect-square rounded-xl overflow-hidden bg-white p-0.5 flex-shrink-0 shadow-sm`}
       >
         <img
-          src="/fin-logo.jpeg"
+          src="/Images/fin-logo.jpeg"
           alt="Fortune Intern Network"
           className="w-full h-full object-contain"
           draggable={false}
@@ -135,7 +135,7 @@ export function LogoMark({
       style={{ width: size, height: size, padding: 2 }}
     >
       <img
-        src="/fin-logo.jpeg"
+        src="/Images/fin-logo.jpeg"
         alt="FIN"
         className="w-full h-full object-contain"
         draggable={false}

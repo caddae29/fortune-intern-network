@@ -108,7 +108,7 @@ function BrandPanel() {
         <LogoFull size="sm" onDark />
         <div className="flex-1 flex flex-col justify-center">
           <div className="w-20 h-20 bg-white rounded-2xl p-1.5 shadow-2xl mb-8">
-            <img src="/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
+            <img src="/Images/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
           </div>
           <h2 className="text-3xl font-extrabold text-white leading-snug mb-3">
             Your next<br />opportunity<br /><span className="text-fin-gold">starts here.</span>
@@ -243,7 +243,7 @@ export default function Auth({ mode, onNavigate }: Props) {
               <div className="text-center animate-fade-scale">
                 <div className="flex justify-center mb-6">
                   <div className="w-20 h-20 bg-white rounded-2xl p-1.5 shadow-lg border border-fin-border">
-                    <img src="/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
+                    <img src="/Images/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
                   </div>
                 </div>
                 <h1 className="text-3xl font-extrabold text-fin-navy mb-3">Your next opportunity<br />starts here.</h1>
@@ -632,7 +632,7 @@ export default function Auth({ mode, onNavigate }: Props) {
                   </div>
                   <div className="relative">
                     <div className="w-20 h-20 bg-white rounded-2xl p-1.5 shadow-xl mx-auto mb-4">
-                      <img src="/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
+                      <img src="/Images/fin-logo.jpeg" alt="FIN" className="w-full h-full object-contain" draggable={false} />
                     </div>
                     <h1 className="text-2xl font-extrabold text-white mb-1">Welcome to FIN, Amara!</h1>
                     <p className="text-white/60 text-sm">{"You've taken the first step toward your next opportunity."}</p>

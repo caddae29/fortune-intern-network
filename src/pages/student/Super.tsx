@@ -34,7 +34,7 @@ function TypingIndicator() {
   return (
     <div className="flex items-start gap-3">
       <div className="w-8 h-8 rounded-xl bg-white border border-fin-border flex-shrink-0 p-0.5 shadow-sm">
-        <img src="/fin-logo.jpeg" alt="Super" className="w-full h-full object-contain" draggable={false} />
+        <img src="/Images/fin-logo.jpeg" alt="Super" className="w-full h-full object-contain" draggable={false} />
       </div>
       <div className="bg-white border border-fin-border rounded-2xl rounded-tl-none px-4 py-3">
         <div className="flex gap-1">
@@ -120,7 +120,7 @@ export default function Super({ onClose }: Props) {
           {/* FIN logo mark */}
           <div className="w-10 h-10 bg-white rounded-xl p-0.5 flex-shrink-0 shadow-sm">
             <img
-              src="/fin-logo.jpeg"
+              src="/Images/fin-logo.jpeg"
               alt="FIN"
               className="w-full h-full object-contain"
               draggable={false}
@@ -148,7 +148,7 @@ export default function Super({ onClose }: Props) {
           <div key={msg.id} className={`flex items-start gap-3 ${msg.role === "user" ? "flex-row-reverse" : ""}`}>
             {msg.role === "ai" && (
               <div className="w-8 h-8 rounded-xl bg-white border border-fin-border flex-shrink-0 p-0.5 shadow-sm">
-                <img src="/fin-logo.jpeg" alt="Super" className="w-full h-full object-contain" draggable={false} />
+                <img src="/Images/fin-logo.jpeg" alt="Super" className="w-full h-full object-contain" draggable={false} />
               </div>
             )}
             {msg.role === "user" && (
